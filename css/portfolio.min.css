@@ -1,0 +1,538 @@
+﻿@charset "UTF-8";
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.stayHov {
+    border-bottom: 4px solid #06e5e1 !important;
+    border-top: 1px solid #06e5e1 !important;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: arial, helvetica, "Times New Roman";
+    color: #fff;
+}
+
+html body header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    background: #000;
+    width: 100%;
+    border-bottom: 1px solid #222;
+}
+
+html body header .heading {
+    max-width: 900px;
+    height: 115px;
+    margin: 0 auto;
+    position: relative;
+}
+
+html body header .heading .logo {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+html body header .heading .logo h1 {
+    margin-bottom: 5px;
+}
+
+html body header .heading .logo span {
+    border-bottom: 2px solid #06e5e1;
+    padding-bottom: 6px;
+}
+
+html body header .heading nav {
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    padding: 5px 0;
+    text-align: right;
+}
+
+html body header .heading nav ul li {
+    display: inline;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+}
+
+html body header .heading nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 9px;
+    padding: 15px 5px 5px 5px;
+    border-top: 1px solid #fff;
+    border-bottom: 4px solid #fff;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+html body header .heading nav ul li:hover a {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    border-bottom: 4px solid #06e5e1;
+}
+
+html body main {
+    padding-top: 115px;
+    color: #fff;
+}
+
+html body main .homePage {
+    background: url(../img/hero.JPG) no-repeat center -30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html body main .homePage .hero {
+    background: rgba(0, 0, 0, .7);
+    padding-top: 75px;
+    padding-bottom: 15%;
+}
+
+html body main .homePage .hero .heroText {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+html body main .homePage .hero .heroText h2 {
+    font-size: 40px;
+}
+
+html body main .homePage .hero .heroText article {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+html body main .homePage .hero .heroText article a {
+    color: #fff;
+}
+
+html body main .homePage .hero .heroText a button {
+    padding: 20px 0;
+    margin-right: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 200px;
+    background: rgba(6, 229, 225, .23);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+html body main .homePage .hero .heroText a:hover button {
+    background: #06e5e1;
+    color: #000;
+}
+
+html body main .homePage .content {
+    background: #fff;
+}
+
+html body main .homePage .content #work {
+    color: #000;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+html body main .homePage .content .workSlider {
+    background: #fff;
+    min-height: 400px;
+    margin: 0 auto;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workImg {
+    float: left;
+    width: 48%;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workImg img {
+    width: 100%;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workText {
+    float: right;
+    width: 48%;
+    color: #000;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workText h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workText aside {
+    color: #000;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workText .skills {
+    list-style: none;
+}
+
+html body main .homePage .content .workSlider .workWrapper .example .workText .skills li {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    line-height: 32px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #06e5e1;
+    padding: 4px 9px;
+}
+
+html body main .homePage .content #contact {
+    background: #eee;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 105px;
+}
+
+html body main .homePage .content #contact h2 {
+    font-size: 40px;
+    color: #000;
+}
+
+html body main .homePage .content #contact .wrapper {
+    max-width: 990px;
+    margin: 0 auto;
+    position: relative;
+}
+
+html body main .homePage .content #contact .wrapper .row {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+html body main .homePage .content #contact .wrapper .row input {
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+html body main .homePage .content #contact .wrapper .row textarea {
+    min-height: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+html body main .homePage .content #contact .wrapper input#submit_button {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    background: #06e5e1;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 55px;
+}
+
+.slick-loading .slick-list {
+    background: #fff url('ajax-loader.gif') center center no-repeat;
+}
+
+@font-face {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/slick.eot');
+    src: url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    z-index: 2;
+    line-height: 0;
+    font-size: 90px;
+    cursor: pointer;
+    background: #fff;
+    color: #06e5e1;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.slick-prev:hover,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus {
+    outline: none;
+    background: transparent;
+    color: #ccc;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before,
+.slick-prev:focus:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 1;
+    color: #06e5e1;
+    opacity: 1;
+    transition: .3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: 30px;
+}
+
+.slick-prev[dir="rtl"] {
+    left: auto;
+    right: 0;
+}
+
+.slick-prev:before {
+    content: "";
+}
+
+.slick-prev:before[dir="rtl"] {
+    content: "";
+}
+
+.slick-next {
+    right: 30px;
+}
+
+.slick-next[dir="rtl"] {
+    left: 0;
+    right: auto;
+}
+
+.slick-next:before {
+    content: "";
+}
+
+.slick-next:before[dir="rtl"] {
+    content: "";
+}
+
+.slick-dotted .slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -20px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: #eee;
+    opacity: .4;
+    margin-bottom: 20px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "•";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #06e5e1;
+    opacity: .25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #06e5e1;
+    opacity: 1;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    content: "";
+    display: table;
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+
+[dir="rtl"] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}

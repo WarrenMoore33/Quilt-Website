@@ -1,0 +1,335 @@
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  text-align: left;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.stayHov {
+  border-bottom: 4px solid purple !important;
+  border-top: 1px solid purple !important;
+}
+html {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: arial, helvetica, "Times New Roman";
+  color: white;
+}
+html body header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid #ccc;
+}
+html body header .heading {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+html body header .heading .logo {
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+html body header .heading .logo img {
+  vertical-align: middle;
+}
+html body header .heading .businessName {
+  display: inline-block;
+  margin: 15px 0 0 20px;
+  vertical-align: middle;
+}
+html body header .heading .businessName h1 {
+  margin: 0;
+}
+html body header .heading nav {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  padding: 5px 0;
+  text-align: right;
+}
+html body header .heading nav ul li {
+  display: inline;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 5px;
+}
+html body header .heading nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 9px;
+  padding: 15px 5px 5px 5px;
+  border-top: 1px solid #fff;
+  border-bottom: 4px solid white;
+  transition: .3s;
+}
+html body header .heading nav ul li:hover a {
+  text-decoration: none;
+  background: white;
+  color: black;
+  border-bottom: 4px solid purple;
+}
+html body main {
+  padding-top: 115px;
+  color: white;
+}
+html body main .homePage {
+  background: url(../img/hero.JPG) no-repeat center -390px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+html body main .homePage .hero {
+  background: rgba(0, 0, 0, 0.23);
+  padding-top: 65px;
+  padding-bottom: 5%;
+  text-align: center;
+}
+html body main .homePage .hero .heroText {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+html body main .homePage .hero .heroText h2 {
+  font-size: 40px;
+}
+html body main .homePage .hero .heroText article {
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+html body main .homePage .hero .heroText article a {
+  color: white;
+}
+html body main .homePage .hero .heroText a button {
+  padding: 20px 0;
+  margin-right: 5px;
+  font-size: 16px;
+  width: 200px;
+  background: rgba(128, 23, 128, 0.43);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: .3s;
+}
+html body main .homePage .hero .heroText a:hover button {
+  background: rgba(6, 229, 225, 0.63);
+  color: black;
+}
+html body main .homePage .content {
+  background: white;
+}
+html body main .homePage .content #work {
+  color: black;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+html body main .homePage .content .workSlider {
+  background: #fff;
+  min-height: 400px;
+  margin: 0 auto;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+html body main .homePage .content .workSlider .workWrapper .example {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workImg {
+  display: inline-block;
+  width: 15%;
+  margin: 0 2%;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workImg img {
+  width: 100%;
+  cursor: zoom-in;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText {
+  float: right;
+  width: 48%;
+  color: black;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText h3 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText h3 a {
+  color: black;
+  text-decoration: none;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText aside {
+  color: black;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText .skills {
+  list-style: none;
+  padding-left: 0;
+}
+html body main .homePage .content .workSlider .workWrapper .example .workText .skills li {
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  line-height: 32px;
+  display: inline;
+  font-size: 12px;
+  background: purple;
+  padding: 4px 9px;
+}
+html body main .homePage .content #contact {
+  background: #eee;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+html body main .homePage .content #contact h2 {
+  font-size: 40px;
+  color: black;
+}
+html body main .homePage .content #contact .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+html body main .homePage .content #contact .wrapper .contactInfo {
+  list-style: none;
+  padding-left: 20px;
+}
+html body main .homePage .content #contact .wrapper .contactInfo li {
+  font-size: 16px;
+}
+html body main .homePage .content #contact .wrapper .contactInfo li span {
+  font-weight: bold;
+}
+html body footer {
+  padding: 5px 0;
+  background: #eee;
+}
+html body footer .footerWrap {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+html body footer .footerWrap .copyright {
+  color: #333;
+  margin: 0;
+}
+html body footer .footerWrap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+html body footer .footerWrap ul li {
+  display: inline-block;
+}
+html body footer .footerWrap ul li a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+  color: #333 !important;
+  line-height: 8;
+  font-size: 10px;
+}
+html body footer .footerWrap ul li a.social.twitter {
+  background-image: url(../img/twitter.svg);
+}
+html body footer .footerWrap ul li a.social.linkedIn {
+  background-image: url(../img/linkedIn.jpg);
+}
+html body footer .footerWrap ul li a.social.github {
+  background-image: url(../img/github.svg);
+}
+html body footer .footerWrap ul li a.social.instagram {
+  background-image: url(../img/instagram.png);
+}
+html body footer .footerWrap ul li a.social.music {
+  background-image: url(../img/music.jpg);
+}
+html body footer .footerWrap ul li a.social:hover {
+  opacity: 1;
+  text-indent: 0;
+}
+@media only screen and (max-width: 1080px) {
+  html body main .homePage .content .workSlider .workWrapper .example .workImg {
+    float: none;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  html body main .homePage .content .workSlider .workWrapper .example .workImg img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  html body main .homePage .content .workSlider .workWrapper .example .workText {
+    float: none;
+    width: 100%;
+  }
+  html body main .homePage .content .slick-prev,
+  html body main .homePage .content .slick-next {
+    top: 34%;
+  }
+}
+#arrayInput {
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+  padding-bottom: 30px;
+}
+.listImg {
+  width: 200px;
+  margin: 0 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.showDescription {
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  z-index: 9;
+}
+.showDescription p {
+  max-width: 900px;
+  margin: 8% auto 3% auto;
+}
+.showDescription .imgWrap {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.showDescription .imgWrap img {
+  max-width: 240px;
+  max-height: 240px;
+}
+.showDescription #close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}

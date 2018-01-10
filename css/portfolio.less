@@ -1,0 +1,379 @@
+@blue: #06e5e1;
+@purple: purple;
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.stayHov {
+    border-bottom: 4px solid @purple !important;
+    border-top: 1px solid @purple !important;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
+    body {
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-family: arial, helvetica, "Times New Roman";
+        color: white;
+        header {
+            position: fixed;
+            z-index: 5;
+            top: 0;
+            background: white;
+            width: 100%;
+            height: 115px;
+            border-bottom: 1px solid #ccc;
+            .heading {
+                max-width: 1200px; // height: 115px;
+                margin: 0 auto;
+                position: relative;
+                .logo {
+                    display: inline-block;
+                    width: 100px;
+                    vertical-align: middle;
+                    margin-top: 20px;
+                    img {
+                        vertical-align: middle;
+                    }
+                }
+                .businessName {
+                    display: inline-block;
+                    margin: 15px 0 0 20px;
+                    vertical-align: middle;
+                    h1 {
+                        margin: 0;
+                    }
+                }
+                nav {
+                    position: absolute;
+                    top: 30px;
+                    right: 0;
+                    padding: 5px 0;
+                    text-align: right;
+                    ul {
+                        li {
+                            display: inline;
+                            cursor: pointer;
+                            padding: 0;
+                            margin-left: 5px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                                font-weight: bold;
+                                padding-bottom: 9px;
+                                padding: 15px 5px 5px 5px;
+                                border-top: 1px solid #fff;
+                                border-bottom: 4px solid white;
+                                
+                                transition: .3s;
+                            }
+                            &:hover {
+                                a {
+                                    text-decoration: none;
+                                    background: white;
+                                    color: black;
+                                    border-bottom: 4px solid @purple;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            padding-top: 115px;
+            color: white;
+            .homePage {
+                background: url(../img/hero.JPG) no-repeat center -390px;
+                background-size: cover;
+                background-attachment: fixed;
+                .hero {
+                    background: rgba(0, 0, 0, .23);
+                    padding-top: 65px;
+                    padding-bottom: 5%;
+                    text-align: center;
+                    .heroText {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        h2 {
+                            font-size: 40px;
+                        }
+                        article {
+                            font-size: 16px;
+                            margin-bottom: 40px;
+                            line-height: 25px;
+                            a {
+                                color: white;
+                            }
+                        }
+                        a {
+                            button {
+                                padding: 20px 0;
+                                margin-right: 5px;
+                               
+                                font-size: 16px;
+                                width: 200px;
+                                background: rgba(128, 23, 128, .43);
+                                
+                                color: white;
+                                font-weight: bold;
+                                cursor: pointer;
+                                border: 1px solid #fff;
+                                transition: .3s;
+                            }
+                            &:hover {
+                                button {
+                                    background: rgba(6, 229, 225, 0.63);
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content {
+                    background: white;
+                    #work {
+                        color: black;
+                        margin: 0;
+                        padding-top: 40px;
+                        font-size: 40px;
+                        text-align: center;
+                    }
+                    .workSlider {
+                        background: #fff;
+                        min-height: 400px;
+                        margin: 0 auto;
+                        padding-top: 105px;
+                        padding-bottom: 105px;
+                        .workWrapper {
+                            .example {
+                                max-width: 1200px;
+                                margin: 0 auto;
+                                text-align: center;
+                                .workImg {
+                                    display: inline-block;
+                                    width: 15%;
+                                    margin: 0 2%;
+                                    img {
+                                        width: 100%;
+                                        cursor: zoom-in;
+                                    }
+                                    
+                                }
+                                .workText {
+                                    float: right;
+                                    width: 48%;
+                                    color: black;
+                                    h3 {
+                                        font-size: 24px;
+                                        margin-top: 0;
+                                        margin-bottom: 20px;
+                                        a {
+                                            color: black;
+                                            text-decoration: none;
+                                        }
+                                    }
+                                    aside {
+                                        color: black;
+                                    }
+                                    .skills {
+                                        list-style: none;
+                                        padding-left: 0;
+                                        li {
+                                            color: #fff;
+                                            text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+                                            line-height: 32px;
+                                            display: inline;
+                                            
+                                            font-size: 12px;
+                                            background: @purple;
+                                            padding: 4px 9px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #contact {
+                        background: #eee;
+                        color: black;
+                        padding-top: 20px;
+                        padding-bottom: 5px;
+                        h2 {
+                            font-size: 40px;
+                            color: black;
+                        }
+                        .wrapper {
+                            max-width: 1200px;
+                            margin: 0 auto;
+                            position: relative;
+                            .contactInfo {
+                                list-style: none;
+                                padding-left: 20px;
+                                li {
+                                    font-size: 16px;
+                                    span {
+                                        font-weight: bold;
+                                    }
+                                }
+                            }                            
+                        }
+                    }
+                }
+            }
+        }
+        footer {                        
+            padding: 5px 0;
+            background:#eee;
+            
+            
+
+        .footerWrap {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            
+            .copyright {
+                color: #333;
+                margin: 0;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;                   
+            
+                li {
+                    display: inline-block;                        
+                
+                a.social {
+                    display: inline-block;
+                    text-indent: -9999px;
+                    margin-left: 5px;
+                    width: 30px;
+                    height: 30px;
+                    background-size: 30px 30px;
+                    opacity: .4;
+                    transition: all .5s;
+                    color: #333 !important;
+                    line-height: 8;
+                    font-size: 10px;
+                
+                &.twitter {
+                    background-image: url(../img/twitter.svg);
+                }
+                
+                &.linkedIn {
+                    background-image: url(../img/linkedIn.jpg);
+                }
+                
+                &.github {
+                    background-image: url(../img/github.svg);
+                }
+                &.instagram {
+                    background-image: url(../img/instagram.png);
+                }
+                &.music {
+                    background-image: url(../img/music.jpg);
+                }
+                
+                &:hover {
+                    opacity: 1;
+                    text-indent: 0;                                    
+                }
+            }
+        }
+    }
+}
+        }
+    }
+}
+
+//****************************************************************************
+
+
+//****************************************************************************
+// MEDIA QUERIES
+@media only screen and (max-width: 1080px) {
+    html body main .homePage .content {
+        .workSlider .workWrapper .example {
+            .workImg {
+                float: none;
+                width: 40%;
+                margin-bottom: 20px;
+                img {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+            }
+            .workText {
+                float: none;
+                width: 100%;
+            }
+        }.slick-prev, .slick-next {
+            
+            top: 34%;
+        }
+        #contact {}
+    }
+}
+#arrayInput {
+    max-width: 1200px;
+    margin: 60px auto 0 auto;
+    padding-bottom: 30px;
+}
+.listImg {
+width: 200px;
+margin: 0 20px;
+display: inline-block;
+cursor: pointer;
+}
+.showDescription {
+    background: rgba(0,0,0, .9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    z-index: 9;
+    p {
+        max-width: 900px;
+        margin: 8% auto 3% auto;
+    }
+     .imgWrap {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        
+        img {
+            max-width: 240px;
+            max-height: 240px;
+        }
+
+    }
+    #close {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+}
